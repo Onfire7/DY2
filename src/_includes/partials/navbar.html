@@ -1,12 +1,58 @@
-<div class="{{ 'lg:fixed' if path == 'home' }} w-full">
+<header class="primary-header header-style-full-header-image">
+    <a href="index.html"><img src="/static/img/header.webp" alt="Discovery Years - Cypress Logo"></a>
+</header>
+
+<nav class="primary-navigation layout--contact_icons_with_slide_down_pages clearfix">
+    <div class="site-wrapper">
+        <div class="inner-wrap">
+            <a href="#" title="View Menu" class="fas fa-bars menu-toggle "></a>
+            <ul class="location-quick-links">
+                <li>
+                    <a title="Call us" href="tel:+12818618755">
+                        <i class="fas fa-phone"></i>
+                        Call
+                    </a>
+                </li>
+                <li>
+                    <a title="View on a map" target="_blank" data-track="/a/track_map_view"
+                        href="http://maps.google.com/maps?q=7020+Fry+Rd%2C+Cypress%2C+TX+77433&amp;z=15&amp;mrt=loc">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Map
+                    </a>
+                </li>
+                <li>
+                    <a title="View hours" data-modal="true" href="a/locations/hours.html">
+                        <i class="far fa-clock"></i>
+                        Hours
+                    </a>
+                </li>
+            </ul>
+{% if navigation.items %}
+            <ul class="page-listing" data-behavior="site-navigation">
+{% for item in navigation.items %}
+                <li>
+                    <a class="active" href="{{ item.url }}">
+                        <div>
+                            {{ item.text }}
+                        </div>
+                    </a>
+                </li>
+{% endfor %}
+            </ul>
+{% endif %}
+        </div>
+    </div>
+</nav>
+
+<!--<div class="{{ 'lg:fixed' if path == 'home' }} w-full">
     <nav class="flex items-center justify-center lg:justify-between flex-wrap p-6 lg:px-0 container mx-auto" x-data="{ isOpen: false }" @keydown.escape="isOpen = false"  @click.away="isOpen = false">
-        <!--Logo etc-->
+        --><!--Logo etc--><!--
         <div class="flex items-center">
             <a href="/" class="text-indigo-500 font-bold text-lg">
                 Logo</a>
         </div>
 
-        <!--Toggle button (hidden on large screens)-->
+        --><!--Toggle button (hidden on large screens)--><!--
         <button @click="isOpen = !isOpen" type="button" class="ml-auto block lg:hidden px-2 text-primary-500 hover:text-primary-500 focus:outline-none focus:text-primary-500" :class="{ 'transition transform-180': isOpen }" aria-label="Menu">
             <svg class="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
                 <path x-show="isOpen" fill-rule="evenodd" clip-rule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"/>
@@ -14,7 +60,7 @@
             </svg>
         </button>
 
-        <!--Menu-->
+        --><!--Menu--><!--
         <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto text-center " :class="{ 'block shadow-3xl': isOpen, 'hidden': !isOpen }" x-show.transition="true">
 
             {% if navigation.items %}
@@ -31,3 +77,7 @@
         </div>
     </nav>
 </div>
+
+
+
+

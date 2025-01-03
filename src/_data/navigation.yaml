@@ -4,7 +4,7 @@ items:
     url: "/"
   - text: What's Defferent About Us
     url: "/whats-different-about-us"
-  - text: Our Services & Programs 
+  - text: Our Services & Programs
     url: "/our-services-and-programs"
   - text: Testimonials
     url: "/testimonials"
@@ -14,7 +14,7 @@ items:
     url: "/discovery-years-mascot"
   - text: How To Enroll
     url: "/how-to-enroll"
-  - text: Parent Page 
+  - text: Parent Page
     url: "/Parents"
   - text: Menu
     url: "/menu"
