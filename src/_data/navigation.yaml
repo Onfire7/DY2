@@ -2,7 +2,7 @@
 items:
   - text: Home
     url: "/"
-  - text: What's Defferent About Us
+  - text: What's Different About Us
     url: "/whats-different-about-us"
   - text: Our Services & Programs
     url: "/our-services-and-programs"
