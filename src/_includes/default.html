@@ -23,7 +23,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;family=Satisfy&amp;display=swap" rel="stylesheet">
 		<link rel="icon" type="image/png" href="/static/img/icon.png" />
 		<script src="static/js/modernizr.js"></script>
-		<script src="static/respond.js/dest/respond.src-c12abd28715ebe617df0ef59dcc6219e77df2f5e67abb3cfa4a3172cfda7bec2.js"></script>
+		<script src="static/js/respond.js"></script>
 		<meta name="csrf-param" content="authenticity_token" />
     	<meta name="csrf-token" content="7AyvLbbwMef-sSAPusYEQv8KqhJr0QABLqtCzLhKki6xvZC3C3J8KGZb13lCbuw7Epq-2ALNfHnwlF5-djSXIw" />
 		<link rel="canonical" href="index.html">
@@ -48,11 +48,10 @@
 			</div>
 {% include "./partials/footer.html" %}
 
-		{% if path == "home" %}
-			<!-- Netlify Identity Widget -->
-			<!-- Needed only if you are using Netlify Identity feature -->
+{% if path == "home" %}
+			<!-- Netlify Identity Widget --><!-- Needed only if you are using Netlify Identity feature -->
 			<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-		{% endif %}
+{% endif %}
 		</div>
 	</body>
 </html>
