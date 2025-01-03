@@ -1,10 +1,22 @@
 ---
 items:
-  - text: Menu One
-    url: "#"
-  - text: Menu Two
-    url: "#"
-  - text: Menu Three
-    url: "#"
-  - text: Blog
-    url: "/blog"
+  - text: Home
+    url: "/"
+  - text: What's Defferent About Us
+    url: "/whats-different-about-us"
+  - text: Our Services & Programs 
+    url: "/our-services-and-programs"
+  - text: Testimonials
+    url: "/testimonials"
+  - text: Miss Annie's Kitchen
+    url: "/miss-annies-kitchen"
+  - text: Discovery Years Mascot
+    url: "/discovery-years-mascot"
+  - text: How To Enroll
+    url: "/how-to-enroll"
+  - text: Parent Page 
+    url: "/Parents"
+  - text: Menu
+    url: "/menu"
+  - text: Calendar
+    url: "/calendar"
