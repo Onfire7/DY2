@@ -17,7 +17,7 @@
 		<meta name="keywords" content="Cypress daycare, daycare cypress, daycare in cypress, daycare near me, daycare Houston, daycare in Houston, Houston daycare, daycare 77095, 77095 daycare daycare in 77095, daycare 77433, daycare in 77433, 77433 daycare, 77429 daycare, daycare in 77429, daycare 77429, 77410 daycare, daycare in 77410, daycare 77429, good rated daycare, good rated daycare near me, five star daycare, 5 star daycare, daycare five star, daycare 5 star, great daycare near me, great daycare, safe daycare, daycare safe, homey daycare, daycare homey, house daycare, daycare in a house">
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="https://www.discoverycypress.com/" />
-		<meta property="og:site_name" content="{{site_name}}Discovery Years - Cypress" />
+		<meta property="og:site_name" content="{{settings.site_name}}Discovery Years - Cypress" />
 		<link rel="preconnect" href="https://fonts.googleapis.com/">
 		<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;family=Satisfy&amp;display=swap" rel="stylesheet">
@@ -41,12 +41,11 @@
 		</script>
 	</head>
 	<body class="layout-one_column" data-page-id="83908">
-		<div class="site-container">
-			
+		<div class="site-container">	
 {% include "./partials/navbar.html" %}
-
-{{ content | safe }}
-
+			<div role="main" class="main-container">
+				{{ content | safe }}
+			</div>
 {% include "./partials/footer.html" %}
 
 		{% if path == "home" %}
