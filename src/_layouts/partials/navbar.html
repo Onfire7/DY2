@@ -31,7 +31,7 @@
             <ul class="page-listing" data-behavior="site-navigation">
 {% for item in navigation.items %}
                 <li>
-                    <a class="active" href="{{ item.url }}">
+                    <a {% if path == item.url %}class="active" {% endif %}href="{{ item.url }}">
                         <div>
                             {{ item.text }}
                         </div>
