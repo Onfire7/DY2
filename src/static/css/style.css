@@ -146,7 +146,6 @@ select {
 
 body {
 	font: 13px/1.231 sans-serif;
-	*font-size: small
 }
 
 select,
@@ -455,7 +454,7 @@ h6 {
 }
 
 #fancybox-content {
-	text-transform: lowercase
+	text-transform: lowercase;
 	background: #f7f7f7 url(../img/fancybox/lightbox-content-bg.jpg) repeat;
 	border: 0px solid transparent;
 	-moz-border-radius-topleft: 5px;
@@ -727,13 +726,13 @@ h6 {
 .fancybox-ie6 #fancybox-left,
 .fancybox-ie6 #fancybox-right,
 #fancybox-hide-sel-frame {
-	height: expression(this.parentNode.clientHeight + "px")
+	height: expression(this.parentNode.clientHeight + "px");
 }
 
 #fancybox-loading.fancybox-ie6 {
 	position: absolute;
 	margin-top: 0;
-	top: expression((-20 + (document.documentElement.clientHeight ? document.documentElement.clientHeight/2 : document.body.clientHeight/2) + (ignoreMe=document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop)) + 'px')
+	top: expression((-20 + (document.documentElement.clientHeight ? document.documentElement.clientHeight/2 : document.body.clientHeight/2) + (ignoreMe=document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop)) + 'px');
 }
 
 #fancybox-loading.fancybox-ie6 div {
@@ -1508,11 +1507,11 @@ a.ec-day-link {
 }
 
 .swiper-lazy-preloader-white {
-	--swiper-preloader-color: #fff
+	--swiper-preloader-color: #fff;
 }
 
 .swiper-lazy-preloader-black {
-	--swiper-preloader-color: #000
+	--swiper-preloader-color: #000;
 }
 
 @keyframes swiper-preloader-spin {
