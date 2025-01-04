@@ -180,7 +180,7 @@ body {
 }
 
 body:before {
-    background-image: url(https://d14tal8bchn59o.cloudfront.net/8XFQJXB-dCIXzHtn8z1ZszCNDNYh-Xa1Wj2zPqNK0KU/w:1920/plain/https://02f0a56ef46d93f03c90-22ac5f107621879d5667e0d7ed595bdb.ssl.cf2.rackcdn.com/sites/12861/photos/1271537/background20170221-22108-199kmk_original.jpg);
+  background-image: url(/static/img/background.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
