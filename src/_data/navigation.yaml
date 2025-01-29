@@ -9,9 +9,9 @@ items:
   - text: Testimonials
     url: "/testimonials"
   - text: Miss Annie's Kitchen
-  - text: Discovery Years Mascot
-    url: "/discovery-years-mascot"
     url: "/kitchen"
+  - text: Our Mascot
+    url: "/mascot"
   - text: How To Enroll
     url: "/how-to-enroll"
   - text: Parent Page
