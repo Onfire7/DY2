@@ -2,19 +2,25 @@
 layout: default
 ---
 
-<div class="container max-w-4xl mt-6  px-6">
-    <div class="pb-5 mb-5 border-b border-gray-100">
-        <h1 class="font-bold text-5xl">{{title}}</h1>
-        <p class="text-center text-base leading-6 font-medium text-gray-500">
-            <time> {{ date | readableDate }}
-                by
-                <a>{{ author }}</a>
+<section class="posts-container">
+    <div class="posts">
+        <div class="post-container" style="margin-top: 10px; margin-bottom: 10px;">
+            <article
+                class="post post-image layout--title_above_left_photo photo-size--one_third crop--none photo-border has-content full-width">
 
-            </time>
-        </p>
+                <div class="post-body">
+                    <div class="post--title">
+                        <h1>{{title}}</h1>
+                    </div>
+                    {% if post.date %}
+                    <p class="text-base leading-6 text-gray-500 mb-3">
+                        <time>{{ post.date | readableDate }}</time>
+                    </p>
+                    {% endif %}
 
+                    {{ content | safe }}
+                </div>
+            </article>
+        </div>
     </div>
-    <article class="prose lg:prose-xl my-4 mx-auto">
-        {{ content | safe }}</article>
-
-</div>
+</section>

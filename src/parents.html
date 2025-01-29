@@ -1,0 +1,38 @@
+---
+layout: default
+title: Parent Info - Discovery Years
+path: /parents
+---
+<section class="posts-container">
+    <div class="posts">
+        {% set postslist = collections.post %}
+        {% for post in postslist | reverse %}
+        <div class="post-container" style="margin-top: 10px; margin-bottom: 10px;">
+            <article
+                class="post post-image layout--title_above_left_photo photo-size--one_third crop--none photo-border has-content full-width">
+
+                <div class="post-body">
+                    <div class="post--title">
+                        <h2><a href="{{ post.url | url }}">
+                            {% if post.data.title %}
+                                {{ post.data.title }}
+                            {% else %}
+                                Untitled
+                            {% endif %}
+                        </a></h2>
+                    </div>
+                    <p class="text-base leading-6 text-gray-500 mb-3">
+                        <time>{{ post.date | readableDate }}</time>
+                    </p>
+
+                    {% if post.data.description %}
+                        <p class="text-lg text-gray-500 mb-3">
+                            {{ post.data.description }}
+                        </p>
+                    {% endif %}
+                </div>
+            </article>
+        </div>
+        {% endfor %}
+    </div>
+</section>
