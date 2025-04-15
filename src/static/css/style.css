@@ -16402,7 +16402,7 @@ body:not(.layout-two_column) .coupon-list--coupon .post {
 
 @media (min-width: 968px) {
 	.layout-one_column .site-container {
-		width: 90vw;
+		width: 75vw;
 		padding-top: 28px;
 		padding-bottom: 20px
 	}
