@@ -13919,8 +13919,39 @@ body:not(.popover-editor--open) .footer-container:hover .actions-menu {
 }
 
 .post--title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	vertical-align: middle;
 	font-size: 30px;
 	font-weight: normal
+}
+
+.post--title time{
+	font-size: 20px;
+	font-weight: normal;
+	vertical-align: middle;
+	color: #666;
+}
+
+.post--details div span{
+	font-weight: bold;
+}
+
+.post--image {
+    float: right;
+    max-width: 400px;
+    margin: 0 0 1rem 1rem;
+    border: 1px solid #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post--image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
 }
 
 .post-body,

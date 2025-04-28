@@ -20,14 +20,28 @@ path: /parents
                                 Untitled
                             {% endif %}
                         </a></h2>
-                    </div>
-                    <p class="text-base leading-6 text-gray-500 mb-3">
                         <time>{{ post.date | readableDate }}</time>
-                    </p>
+                    </div>
+
+                    {% if post.data.image %}
+                    <div class="post--image">
+                        <img src="{{ post.data.image }}" alt="{{ title }}">
+                    </div>
+                    {% endif %}
 
                     {% if post %}
+                        {% if post.data and (post.data.event_date or post.data.event_time) %}
+                            <div class="post--details text-lg text-gray-500 mb-3">
+                                {% if post.data.event_date %}
+                                    <div><span>Date: </span>{{ post.data.event_date }}</div>
+                                {% endif %}
+                                {% if post.data.event_time %}
+                                    <div><span>Time: </span>{{ post.data.event_time }}</div>
+                                {% endif %}
+                            </div>
+                        {% endif %}
                         <p class="text-lg text-gray-500 mb-3">
-                            {{ post.content | safe }}
+                            {{ post.templateContent | safe }}
                         </p>
                     {% endif %}
                 </div>
