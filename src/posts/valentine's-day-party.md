@@ -3,7 +3,6 @@ title: Valentine's Day Party!
 author: Sean Goheen
 date: 2025-01-29T10:38:41.029Z
 event_date: February 14th, 2025
-event_time: During School Hours
 tags:
   - Events
 image: /static/img/walls-io-gtkuti8bcte-unsplash.jpg

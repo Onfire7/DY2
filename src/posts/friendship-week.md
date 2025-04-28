@@ -3,7 +3,6 @@ title: Friendship Week!
 author: Sean Goheen
 date: 2025-01-29T10:31:00.000Z
 event_date: February 3rd - 7th, 2025
-event_time: During School Hours
 tags:
   - Tags
 image: /static/img/artem-kniaz-dqgmhzeio7g-unsplash.jpg
