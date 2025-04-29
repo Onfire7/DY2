@@ -20,8 +20,10 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Event Date", name: "event_date", widget: "string" }
+      - { label: "Event Time", name: "event_time", widget: "string" }
+      - { label: "Image", name: "image", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
       - widget: select
         label: "tags"
@@ -37,8 +39,10 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Event Date", name: "event_date", widget: "string" }
+      - { label: "Event Time", name: "event_time", widget: "string" }
+      - { label: "Image", name: "image", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
       - widget: select
         label: "tags"
