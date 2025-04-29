@@ -2,7 +2,7 @@
 title: Closed for Memorial Day
 date: 2025-04-29T00:31:28.419Z
 event_date: May 26th, 2025
-event_time: All day
+event_time: ""
 image: /static/img/aaron-burden-9c8r4quwzrq-unsplash.jpg
 tags:
   - Information
