@@ -1,1 +1,13 @@
----
+hero_image:
+  - image: /static/img/kids.jpg
+    description: A small crowd of kids looking at the camera.
+  - image: /static/img/kid-painting.jpg
+    description: The hands of 2 kids painting a picture of a house.
+  - image: /static/img/crowd-of-kids.jpg
+    description: A crowd of children looking way up at the camera.
+  - image: /static/img/finger-painting.jpg
+    description: A toddler fingerpainting.
+  - image: /static/img/watercolors.jpg
+    description: A toddler's hands on a watercolor painting.
+  - image: /static/img/kid-in-tunnel.jpg
+    description: A crawling child smiling at the end of a play tunnel.
