@@ -1,4 +1,3 @@
----
 images:
   - src: /static/img/kids.jpg
     description: A small crowd of kids looking at the camera.
@@ -12,3 +11,5 @@ images:
     description: A toddler's hands on a watercolor painting.
   - src: /static/img/kid-in-tunnel.jpg
     description: A crawling child smiling at the end of a play tunnel.
+  - src: /static/img/4228202205577061155.jpeg
+    description: 6 Children sit at a table painting brown paper bags.
