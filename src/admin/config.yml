@@ -60,7 +60,7 @@ collections:
         file: "src/_data/hero.yaml"
         fields:
           - label: Hero Image
-            name: hero_image
+            name: images
             widget: list
             allow_add: true
             collapsed: false
