@@ -55,6 +55,19 @@ collections:
     editor:
       preview: false
     files:
+      - label: "Hero"
+        name: "hero"
+        file: "src/_data/hero.yaml"
+        fields:
+          - label: Hero Image
+            name: hero_image
+            widget: list
+            allow_add: true
+            collapsed: false
+            fields:
+              - { label: Image, name: image, widget: image }
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
       - label: "Navigation"
         name: "items"
         file: "src/_data/navigation.yaml"
