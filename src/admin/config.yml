@@ -56,7 +56,7 @@ collections:
       preview: false
     files:
       - label: "Hero"
-        name: "hero"
+        name: "images"
         file: "src/_data/hero.yaml"
         fields:
           - label: Hero Image
@@ -65,7 +65,7 @@ collections:
             allow_add: true
             collapsed: false
             fields:
-              - { label: Image, name: image, widget: image }
+              - { label: Image, name: src, widget: image }
               - { label: Description, name: description, widget: text }
       - label: "Navigation"
         name: "items"
