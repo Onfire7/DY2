@@ -9,8 +9,8 @@ This week was packed with fun and learning as we welcomed two very special guest
 
 ![](/static/img/photo_2025-07-23_19-57-10.jpg)
 
-![](/static/img/photo_2025-07-23_19-57-10 (3).jpg)
+![](/static/img/photo_2025-07-23_19-57-10(3).jpg)
 
-![](/static/img/photo_2025-07-23_19-57-10 (4).jpg)
+![](/static/img/photo_2025-07-23_19-57-10(4).jpg)
 
-![](/static/img/photo_2025-07-23_19-57-10 (7).jpg)
+![](/static/img/photo_2025-07-23_19-57-10(7).jpg)
