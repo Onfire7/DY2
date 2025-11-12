@@ -1,7 +1,7 @@
 ---
 title: Glow Stick Party!
 date: 2025-07-17T00:21:47.739Z
-image: /static/img/photo_2025-07-16_11-11-31 (9).jpg
+image: /static/img/photo_2025-07-16_11-11-31(9).jpg
 tags:
   - Events
 ---
