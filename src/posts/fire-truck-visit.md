@@ -1,7 +1,7 @@
 ---
 title: Fire Truck Visit!
 date: 2025-07-19T00:26:23.468Z
-image: /static/img/photo_2025-07-16_19-07-42 (2).jpg
+image: /static/img/photo_2025-07-16_19-07-42(2).jpg
 tags:
   - Events
 ---
