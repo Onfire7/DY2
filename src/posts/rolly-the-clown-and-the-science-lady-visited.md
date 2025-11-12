@@ -1,7 +1,7 @@
 ---
 title: Rolly the Clown and the Science Lady visited!
 date: 2025-07-24T00:33:20.673Z
-image: /static/img/photo_2025-07-23_19-57-10 (2).jpg
+image: /static/img/photo_2025-07-23_19-57-10(2).jpg
 tags:
   - Events
 ---
